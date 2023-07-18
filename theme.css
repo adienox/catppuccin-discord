@@ -7,7 +7,8 @@
  * @website https://github.com/catppuccin/discord
  * @invite r6Mdz5dpFc
 **/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css); /* Apple emoji */
+@import url('https://refact0r.github.io/midnight-discord/midnight.css'); /* Rounded ui */
 button[class*=emojiButtonNormal] > div > div {
   filter: grayscale(0.77) hue-rotate(185deg) brightness(1.02) opacity(100%) !important;
 }
