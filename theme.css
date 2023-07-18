@@ -73,16 +73,16 @@ html {
   --text-danger: #f38ba8;
   --text-brand: #f38ba8;
   --background-primary: #000000;
-  --background-secondary: #181825;
+  --background-secondary: #010101;
   --background-secondary-alt: #14141f;
-  --background-tertiary: #11111b;
+  --background-tertiary: #020202;
   --background-accent: #f38ba8;
   --background-floating: #0d0d15;
-  --background-nested-floating: #181825;
+  --background-nested-floating: #010101;
   --background-mobile-primary: #000000;
-  --background-mobile-secondary: #181825;
+  --background-mobile-secondary: #010101;
   --chat-background: #000000;
-  --chat-border: #11111b;
+  --chat-border: #020202;
   --chat-input-container-background: #000000;
   --background-modifier-hover: rgba(205, 214, 244, 0.15);
   --background-modifier-selected: rgba(205, 214, 244, 0.2);
@@ -116,10 +116,10 @@ html {
   --status-red-500: #f38ba8;
   --status-red-530: #f38ba8;
   --status-yellow-500: #f9e2af;
-  --black-500: #11111b;
+  --black-500: #020202;
   --green-360: #a6e3a1;
   --primary-400: #bac2de;
-  --primary-dark-700: #11111b;
+  --primary-dark-700: #020202;
   --status-green-560: #a6e3a1;
   --white-500: #cdd6f4;
   --guild-boosting-pink: #f5c2e7;
@@ -181,14 +181,14 @@ html {
   --button-outline-primary-text-active: #000000;
   --button-outline-primary-border-active: #525569;
   --modal-background: #000000;
-  --modal-footer-background: #11111b;
+  --modal-footer-background: #020202;
   --scrollbar-thin-thumb: #f38ba8;
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: #f38ba8;
-  --scrollbar-auto-track: #11111b;
+  --scrollbar-auto-track: #020202;
   --scrollbar-auto-scrollbar-color-thumb: #f38ba8;
-  --scrollbar-auto-scrollbar-color-track: #11111b;
-  --input-background: #11111b;
+  --scrollbar-auto-scrollbar-color-track: #020202;
+  --input-background: #020202;
   --input-placeholder-text: #bac2de;
   --logo-primary: #cdd6f4;
   --control-brand-foreground: #f38ba8;
@@ -205,22 +205,22 @@ html {
   --channels-default: #969ebe;
   --channel-icon: #969ebe;
   --channel-text-area-placeholder: rgba(205, 214, 244, 0.5);
-  --channeltextarea-background: #181825;
-  --activity-card-background: #11111b;
+  --channeltextarea-background: #010101;
+  --activity-card-background: #020202;
   --textbox-markdown-syntax: #6c7086;
   --spoiler-revealed-background: #313244;
   --spoiler-hidden-background: #585b70;
-  --android-navigation-bar-background: #11111b;
+  --android-navigation-bar-background: #020202;
   --android-ripple: rgba(17, 17, 27, 0.3);
   --deprecated-card-bg: rgba(17, 17, 27, 0.6);
   --deprecated-card-editable-bg: rgba(17, 17, 27, 0.3);
   --deprecated-store-bg: #000000;
   --deprecated-quickswitcher-input-background: #4d4f62;
   --deprecated-quickswitcher-input-placeholder: rgba(17, 17, 27, 0.3);
-  --deprecated-text-input-bg: #11111b;
+  --deprecated-text-input-bg: #020202;
   --deprecated-text-input-border: rgba(17, 17, 27, 0.3);
   --deprecated-text-input-border-hover: #07070b;
-  --deprecated-text-input-border-disabled: #181825;
+  --deprecated-text-input-border-disabled: #010101;
   --deprecated-text-input-prefix: #a6adc8;
   --focus-primary: #f38ba8;
   --interactive-normal: #cdd6f4;
@@ -239,7 +239,7 @@ html {
 }
 .theme-dark [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-],
 .theme-light [class*=disabledPointerEvents] [class*=tooltipBrand-] [class*=tooltipText-] {
-  color: #11111b;
+  color: #020202;
 }
 
 ::selection {
@@ -247,7 +247,7 @@ html {
 }
 
 [class*=staffBadge-] {
-  background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2311111b'%3E%3Cpath d='m5.92127 6.03526s.22115-.33086.31286-.47743c.09172-.14657-.23743-.49286-.36514-.60257-.12772-.10971-.32914-.05486-.32914-.05486-1.60715.71229-2.41115 2.17372-2.52086 2.466-.10972.29229.27943.61115.56657.76715.132.072.342-.08743.47143-.20572l.04371-.04457.06772-.06857.00085-.00086 4.37229 4.35517.59743-.5975 1.09801-1.098-4.32173-4.43224z'/%3E%3Cpath d='m16.2505 10.6294.2306-.2194 2.0717 2.052c.0146.0129.03.018.0437.018.0395 0 .072-.036.072-.036s2.2937-2.2757 2.3015-2.2834c.0677-.0669 0-.1037 0-.1037l-1.7692-1.78119-.0026.00258-.2425-.23743.1354-.13029.2897.03343-.0548-.384.0728-.07371-.1088-.55372c-.378-.53571-1.4135-1.39371-1.4135-1.39371l-.5417-.09772-.0548.07286-.408-.06086.0394.348.0257.02572-.1209.12171-.6685-.654s-3.8795-2.10686-4.086-2.20457c-.1166-.054-.2023-.09-.2846-.09-.0634 0-.1251.02143-.1963.072-.1646.11571-.0677.34886-.0677.34886l2.412 4.45714.4826.47829-.1509.15085-.0557.05572-.3857-.05315.0591.38229-.1114.11143-.0197-.01972c-.018-.018-.0429-.02742-.0669-.02742s-.048.00942-.0668.02742c-.0369.03686-.0369.09686 0 .13372l.0197.01971-.0532.054-.0137-.01457c-.0188-.018-.0428-.02743-.0668-.02743-.0249 0-.0489.00943-.0669.02743-.0368.03686-.0368.09686 0 .13372l.0146.01457-1.0149 1.02004-.0231-.0232c-.0189-.018-.0429-.0274-.0669-.0274s-.048.0094-.0668.0274c-.0369.0369-.0369.0969 0 .1337l.024.0232-.054.054-.018-.0172c-.018-.0188-.0429-.0283-.066-.0283-.0249 0-.0489.0095-.0677.0283-.036.0369-.036.096 0 .1329l.018.018-.132.1337-.018.1697.0694.0712-.0017.0008-.084.0857-5.47632 5.4755-.07114-.0592-.22714.0326-.12858.1303-.00857-.0086c-.01885-.0189-.04285-.0283-.06685-.0283s-.04886.0094-.06686.0283c-.03686.0369-.03686.096 0 .1329l.01028.0102-.05314.0549-.00514-.0051c-.018-.0189-.04286-.0283-.06686-.0283s-.048.0094-.06686.0283c-.036.0368-.036.096 0 .1328l.006.0069-1.002 1.0191-.02057-.0206c-.01885-.0188-.042-.0274-.06685-.0274-.024 0-.048.0086-.06686.0274-.03686.0369-.03686.0969 0 .1338l.02228.0214-.05314.054-.01628-.0163c-.01886-.018-.04286-.0274-.06772-.0274-.02314 0-.048.0094-.066.0274-.03686.0369-.03686.0969 0 .1337l.01714.018-.07457.0763-.38828-.0694.02914.4337-.12257.1251.10628.5846s.16286.5091.498.8469c.32486.3274.82029.4842.84172.5005l.55971.0977.138-.1354.38572.0626-.06343-.3814.11743-.1149.054.054c.018.018.042.0274.066.0274s.04885-.0094.06685-.0274c.03686-.0377.03686-.0969 0-.1337l-.05314-.0532.05486-.0531.04628.0463c.018.0188.04286.0283.06686.0283s.048-.0095.06686-.0283c.03686-.0369.03686-.096 0-.1329l-.04543-.0463 1.01743-1.0037.04457.0446c.018.0189.04286.0274.06686.0274s.048-.0085.06685-.0274c.036-.0369.036-.0969 0-.1337l-.04371-.0429.054-.054.03771.0377c.018.018.042.0275.066.0275.02486 0 .04886-.0095.06686-.0275.03686-.0368.03686-.0968 0-.1337l-.03686-.0368.114-.1115.04115-.2442-.06086-.0609.00086-.0009.11057-.1097 5.43946-5.4411-.0026-.0052.1063.1098.1706-.0189.1534-.1543.0248.0249c.0189.018.0429.0274.0669.0274s.0489-.0094.0669-.0274c.0368-.0369.0368-.0969 0-.1337l-.0249-.0249.054-.0531.0189.0188c.018.018.042.0274.0668.0274.024 0 .048-.0094.066-.0274.0369-.0368.0369-.0968 0-.1337l-.0188-.0197 1.0165-1.0183.0266.0266c.018.018.042.0274.066.0274.0249 0 .0489-.0094.0669-.0274.0368-.0369.0368-.0969 0-.1337l-.0266-.0266.054-.054.0206.0214c.0188.018.0428.0274.0668.0274s.048-.0094.0669-.0274c.0368-.0377.0368-.0968 0-.1337l-.0206-.0214.1131-.1132.378.0592z'/%3E%3Cpath d='m17.0057 16.7793-2.4111-1.8274-.4294-.4423-1.6637 1.6637.4183.3995 1.5711 2.3562 2.1188 2.3203 2.4421-2.2783z'/%3E%3C/g%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23020202'%3E%3Cpath d='m5.92127 6.03526s.22115-.33086.31286-.47743c.09172-.14657-.23743-.49286-.36514-.60257-.12772-.10971-.32914-.05486-.32914-.05486-1.60715.71229-2.41115 2.17372-2.52086 2.466-.10972.29229.27943.61115.56657.76715.132.072.342-.08743.47143-.20572l.04371-.04457.06772-.06857.00085-.00086 4.37229 4.35517.59743-.5975 1.09801-1.098-4.32173-4.43224z'/%3E%3Cpath d='m16.2505 10.6294.2306-.2194 2.0717 2.052c.0146.0129.03.018.0437.018.0395 0 .072-.036.072-.036s2.2937-2.2757 2.3015-2.2834c.0677-.0669 0-.1037 0-.1037l-1.7692-1.78119-.0026.00258-.2425-.23743.1354-.13029.2897.03343-.0548-.384.0728-.07371-.1088-.55372c-.378-.53571-1.4135-1.39371-1.4135-1.39371l-.5417-.09772-.0548.07286-.408-.06086.0394.348.0257.02572-.1209.12171-.6685-.654s-3.8795-2.10686-4.086-2.20457c-.1166-.054-.2023-.09-.2846-.09-.0634 0-.1251.02143-.1963.072-.1646.11571-.0677.34886-.0677.34886l2.412 4.45714.4826.47829-.1509.15085-.0557.05572-.3857-.05315.0591.38229-.1114.11143-.0197-.01972c-.018-.018-.0429-.02742-.0669-.02742s-.048.00942-.0668.02742c-.0369.03686-.0369.09686 0 .13372l.0197.01971-.0532.054-.0137-.01457c-.0188-.018-.0428-.02743-.0668-.02743-.0249 0-.0489.00943-.0669.02743-.0368.03686-.0368.09686 0 .13372l.0146.01457-1.0149 1.02004-.0231-.0232c-.0189-.018-.0429-.0274-.0669-.0274s-.048.0094-.0668.0274c-.0369.0369-.0369.0969 0 .1337l.024.0232-.054.054-.018-.0172c-.018-.0188-.0429-.0283-.066-.0283-.0249 0-.0489.0095-.0677.0283-.036.0369-.036.096 0 .1329l.018.018-.132.1337-.018.1697.0694.0712-.0017.0008-.084.0857-5.47632 5.4755-.07114-.0592-.22714.0326-.12858.1303-.00857-.0086c-.01885-.0189-.04285-.0283-.06685-.0283s-.04886.0094-.06686.0283c-.03686.0369-.03686.096 0 .1329l.01028.0102-.05314.0549-.00514-.0051c-.018-.0189-.04286-.0283-.06686-.0283s-.048.0094-.06686.0283c-.036.0368-.036.096 0 .1328l.006.0069-1.002 1.0191-.02057-.0206c-.01885-.0188-.042-.0274-.06685-.0274-.024 0-.048.0086-.06686.0274-.03686.0369-.03686.0969 0 .1338l.02228.0214-.05314.054-.01628-.0163c-.01886-.018-.04286-.0274-.06772-.0274-.02314 0-.048.0094-.066.0274-.03686.0369-.03686.0969 0 .1337l.01714.018-.07457.0763-.38828-.0694.02914.4337-.12257.1251.10628.5846s.16286.5091.498.8469c.32486.3274.82029.4842.84172.5005l.55971.0977.138-.1354.38572.0626-.06343-.3814.11743-.1149.054.054c.018.018.042.0274.066.0274s.04885-.0094.06685-.0274c.03686-.0377.03686-.0969 0-.1337l-.05314-.0532.05486-.0531.04628.0463c.018.0188.04286.0283.06686.0283s.048-.0095.06686-.0283c.03686-.0369.03686-.096 0-.1329l-.04543-.0463 1.01743-1.0037.04457.0446c.018.0189.04286.0274.06686.0274s.048-.0085.06685-.0274c.036-.0369.036-.0969 0-.1337l-.04371-.0429.054-.054.03771.0377c.018.018.042.0275.066.0275.02486 0 .04886-.0095.06686-.0275.03686-.0368.03686-.0968 0-.1337l-.03686-.0368.114-.1115.04115-.2442-.06086-.0609.00086-.0009.11057-.1097 5.43946-5.4411-.0026-.0052.1063.1098.1706-.0189.1534-.1543.0248.0249c.0189.018.0429.0274.0669.0274s.0489-.0094.0669-.0274c.0368-.0369.0368-.0969 0-.1337l-.0249-.0249.054-.0531.0189.0188c.018.018.042.0274.0668.0274.024 0 .048-.0094.066-.0274.0369-.0368.0369-.0968 0-.1337l-.0188-.0197 1.0165-1.0183.0266.0266c.018.018.042.0274.066.0274.0249 0 .0489-.0094.0669-.0274.0368-.0369.0368-.0969 0-.1337l-.0266-.0266.054-.054.0206.0214c.0188.018.0428.0274.0668.0274s.048-.0094.0669-.0274c.0368-.0377.0368-.0968 0-.1337l-.0206-.0214.1131-.1132.378.0592z'/%3E%3Cpath d='m17.0057 16.7793-2.4111-1.8274-.4294-.4423-1.6637 1.6637.4183.3995 1.5711 2.3562 2.1188 2.3203 2.4421-2.2783z'/%3E%3C/g%3E%3C/svg%3E") !important;
 }
 
 [class*=permissionCheckmark-] {
@@ -255,7 +255,7 @@ html {
 }
 
 [class*=removeKeybind-] {
-  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="18" height="18"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cpath d="M0 0h18v18H0"/%3E%3Cpath fill="%2311111b" d="M14.25 4.8075L13.1925 3.75 9 7.9425 4.8075 3.75 3.75 4.8075 7.9425 9 3.75 13.1925 4.8075 14.25 9 10.0575l4.1925 4.1925 1.0575-1.0575L10.0575 9"/%3E%3C/g%3E%3C/svg%3E') !important;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="18" height="18"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cpath d="M0 0h18v18H0"/%3E%3Cpath fill="%23020202" d="M14.25 4.8075L13.1925 3.75 9 7.9425 4.8075 3.75 3.75 4.8075 7.9425 9 3.75 13.1925 4.8075 14.25 9 10.0575l4.1925 4.1925 1.0575-1.0575L10.0575 9"/%3E%3C/g%3E%3C/svg%3E') !important;
 }
 
 [class*=removeGame-] {
@@ -386,16 +386,16 @@ html {
 }
 
 [class*=lookFilled-][class*=colorBrand-], [class*=lookFilled-][class*=colorBrandNew-], [class*=lookFilled-][class*=colorLink-], [class*=lookFilled-][class*=colorYellow-], [class*=lookFilled-][class*=colorRed-], [class*=lookFilled-][class*=colorGreen-] {
-  color: #11111b;
+  color: #020202;
 }
 [class*=lookFilled-][class*=colorBrand-] svg[class^=premiumIcon], [class*=lookFilled-][class*=colorBrandNew-] svg[class^=premiumIcon], [class*=lookFilled-][class*=colorLink-] svg[class^=premiumIcon], [class*=lookFilled-][class*=colorYellow-] svg[class^=premiumIcon], [class*=lookFilled-][class*=colorRed-] svg[class^=premiumIcon], [class*=lookFilled-][class*=colorGreen-] svg[class^=premiumIcon] {
   color: #e76ac5;
 }
 [class*=lookFilled-][class*=colorBrand-] [class*=spinnerItem-], [class*=lookFilled-][class*=colorBrandNew-] [class*=spinnerItem-], [class*=lookFilled-][class*=colorLink-] [class*=spinnerItem-], [class*=lookFilled-][class*=colorYellow-] [class*=spinnerItem-], [class*=lookFilled-][class*=colorRed-] [class*=spinnerItem-], [class*=lookFilled-][class*=colorGreen-] [class*=spinnerItem-] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 [class*=lookFilled-][class*=colorBrand-] [class*=defaultColor-], [class*=lookFilled-][class*=colorBrandNew-] [class*=defaultColor-], [class*=lookFilled-][class*=colorLink-] [class*=defaultColor-], [class*=lookFilled-][class*=colorYellow-] [class*=defaultColor-], [class*=lookFilled-][class*=colorRed-] [class*=defaultColor-], [class*=lookFilled-][class*=colorGreen-] [class*=defaultColor-] {
-  color: #11111b;
+  color: #020202;
 }
 [class*=lookFilled-][class*=colorPrimary-] {
   color: #cdd6f4;
@@ -408,15 +408,15 @@ div[class^=actionButtons-] [class^=button-] [class*=buttonColor-] {
 div[class^=actionButtons-] [class^=button-][class*=buttonColor-][class*=buttonActive-],
 div[class^=actionButtons-] [class^=button-] [class*=buttonColor-][class*=buttonActive-] {
   background-color: #a6e3a1;
-  color: #11111b;
+  color: #020202;
 }
 div[class^=actionButtons-] [class^=button-][class*=buttonColor-][class*=buttonActive-] [class*=buttonContents-],
 div[class^=actionButtons-] [class^=button-] [class*=buttonColor-][class*=buttonActive-] [class*=buttonContents-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=actionButtons-] [class^=button-][class*=buttonColor-][class*=buttonActive-] [class*=buttonContents-] svg,
 div[class^=actionButtons-] [class^=button-] [class*=buttonColor-][class*=buttonActive-] [class*=buttonContents-] svg {
-  color: #11111b;
+  color: #020202;
 }
 
 [class*=lookInverted-][class*=colorBrand-] {
@@ -441,7 +441,7 @@ div[class*=button-][class*=dangerous-]:hover {
 }
 
 div[role=radio][class*=selected] {
-  color: #11111b;
+  color: #020202;
 }
 div[role=radio][class*=selected][class*=allow] {
   background-color: #a6e3a1;
@@ -453,7 +453,7 @@ div[role=radio][class*=selected][class*=allow] {
 }
 
 [class*=container-][style*="background-color: var(--primary-400)"], [class*=container-][style*="background-color: rgb(130, 133, 143)"] {
-  background-color: #11111b !important;
+  background-color: #020202 !important;
 }
 
 .vc-spotify-button-row .vc-spotify-button.vc-spotify-shuffle-on, .vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-context, .vc-spotify-button-row .vc-spotify-button.vc-spotify-repeat-track {
@@ -467,18 +467,18 @@ div[role=radio][class*=selected][class*=allow] {
   background: linear-gradient(268.26deg, #fab387, #f38ba8 102.45%);
 }
 [class*=topGuildEmojiBadge-] * {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 [class*=newlyAddedBadge-] {
   background: linear-gradient(268.26deg, #94e2d5, #a6e3a1 102.45%);
 }
 [class*=newlyAddedBadge-] * {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 [class*=lookFilled-] [class*=premiumSubscribeButton-] > [class*=premiumIcon-] {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class^=sidebarRegion-] div[class^=serverBoostTabItem-] svg[class^=icon-] {
@@ -486,29 +486,29 @@ div[class^=sidebarRegion-] div[class^=serverBoostTabItem-] svg[class^=icon-] {
 }
 div[class^=sidebarRegion-] div[class^=serverBoostTabItem-][class*=selected-] {
   background-color: #f38ba8 !important;
-  color: #11111b !important;
+  color: #020202 !important;
 }
 div[class^=sidebarRegion-] div[class^=serverBoostTabItem-][class*=selected-] svg[class^=icon-] {
-  fill: #11111b !important;
+  fill: #020202 !important;
 }
 div[class^=sidebarRegion-] div[class^=premiumTab-] > div > svg > path {
   fill: #f5c2e7;
 }
 div[class^=sidebarRegion-] div[class^=premiumTab-] > div[class*=selected] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=sidebarRegion-] div[class^=premiumTab-] > div[class*=selected] svg > path {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=sidebarRegion-] div[class*=tabBarItemContainer-] [class*=textBadge-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=sidebarRegion-] div[class*=tabBarItemContainer-] [class*=textBadge-][style*="background-color: var(--brand-500);"] {
   background-color: #f38ba8 !important;
 }
 
 div[class^=contentRegion-] div[class*=noticeRegion-] div[style="background-color: rgb(24, 25, 28);"] {
-  background-color: #11111b !important;
+  background-color: #020202 !important;
 }
 div[class^=contentRegion-] [class^=bar-],
 div[class^=contentRegion-] [class^=markDash-] {
@@ -525,16 +525,16 @@ div[class^=contentRegion-] [id="privacy-&-safety-tab"] div[class^=radioBar-][sty
 }
 div[class^=contentRegion-] [id="privacy-&-safety-tab"] div[class*=betaTagIcon] {
   background-color: #f38ba8 !important;
-  color: #11111b;
+  color: #020202;
 }
 div[class^=contentRegion-] #accessibility-tab button[class*=colorBrandNew] {
   background-color: #f38ba8;
 }
 div[class^=contentRegion-] #keybinds-tab span[class*=key] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=contentRegion-] #keybinds-tab span[class*=key] g {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=contentRegion-] #nitro-server-boost-tab circle[class^=circleProgress-] {
   color: #f5c2e7;
@@ -546,7 +546,7 @@ div[class^=contentRegion-] #nitro-server-boost-tab div[class*=gemIndicatorContai
   color: #bac2de;
 }
 div[class^=contentRegion-] #nitro-server-boost-tab button[class*=lookInverted-] {
-  color: #11111b;
+  color: #020202;
   background-color: #cdd6f4;
 }
 div[class^=contentRegion-] #nitro-server-boost-tab button[class*=lookInverted-]:hover {
@@ -580,7 +580,7 @@ div[class^=contentRegion-] #discord-nitro-tab div[class*=card-] {
   color: #cdd6f4;
 }
 div[class^=contentRegion-] #discord-nitro-tab button[class*=lookInverted-] {
-  color: #11111b;
+  color: #020202;
   background-color: #cdd6f4;
 }
 div[class^=contentRegion-] #discord-nitro-tab button[class*=lookInverted-]:hover {
@@ -602,7 +602,7 @@ div[class^=contentRegion-] #billing-tab [class^=paymentHeader-] {
   border-color: var(--background-modifier-accent);
 }
 div[class^=contentRegion-] #billing-tab div[class^=premiumIndicator-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=contentRegion-] #billing-tab div[class^=paymentPane-],
 div[class^=contentRegion-] #billing-tab div[class*=paginator-],
@@ -617,7 +617,7 @@ div[class^=contentRegion-] #billing-tab [class*=paymentText-] {
   color: #bac2de;
 }
 div[class^=contentRegion-] #billing-tab div[class^=codeRedemptionRedirect-] {
-  background-color: #181825;
+  background-color: #010101;
   color: #cdd6f4;
   border-color: #313244;
 }
@@ -633,16 +633,16 @@ div[class^=contentRegion-] #game-activity-tab div[class*=overlayStatusText-] {
   color: var(--text-muted);
 }
 div[class^=contentRegion-] #game-activity-tab div[class*=activeGame-][class*=nowPlaying] * {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=contentRegion-] #game-activity-tab div[class*=activeGame-][class*=nowPlaying] * svg > g > path {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=contentRegion-] #game-activity-tab input[class^=gameName-] {
   color: #cdd6f4;
 }
 div[class^=contentRegion-] #game-activity-tab input[class*=gameNameInput-]:hover, div[class^=contentRegion-] #game-activity-tab input[class*=gameNameInput-]:focus {
-  background-color: #181825;
+  background-color: #010101;
   border-color: rgba(24, 24, 37, 0.3);
   color: #cdd6f4;
 }
@@ -679,23 +679,23 @@ div[class^=contentRegion-] #guild_premium-tab [class*=tierFirst-] {
   background: #f5c2e7;
 }
 div[class^=contentRegion-] #guild_premium-tab [class*=tierInProgress-] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=progressWithSubscriptions-] > svg > g > rect:first-child {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=progressWithSubscriptions-] > svg > g > rect:nth-child(2) {
   color: #f5c2e7;
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderUnlocked-],
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderLocked-] {
-  background-color: #11111b;
+  background-color: #020202;
   color: #a6adc8;
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderUnlocked-] div[class^=tierUnlocked-],
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderLocked-] div[class^=tierUnlocked-] {
   background-image: linear-gradient(90deg, #89b4fa, #cba6f7);
-  color: #11111b;
+  color: #020202;
   font-weight: 600;
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderUnlocked-] svg[class^=tierIcon-],
@@ -712,10 +712,10 @@ div[class^=contentRegion-] #guild_premium-tab div[class^=tierHeaderLocked-] svg[
 }
 div[class^=contentRegion-] #guild_premium-tab div[class^=tierBody-] {
   color: #bac2de;
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=contentRegion-] svg[class^=activeCircle-] {
-  color: #11111b;
+  color: #020202;
   background-color: #a6e3a1;
 }
 div[class^=contentRegion-] #discovery-tab div[class*=checklistIcon] svg[viewBox="0 0 14 14"] path {
@@ -731,13 +731,13 @@ div[class^=contentRegion-] #guild_templates-tab svg[class*=descriptionIcon][view
   fill: #f38ba8;
 }
 div[class^=contentRegion-] #guild_templates-tab svg[class*=descriptionIcon] circle {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=contentRegion-] #stickers-tab div[class*=tierHeaderContent] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 div[class^=contentRegion-] #stickers-tab div[class*=tierBody] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=contentRegion-] #roles-tab div[class*=previewContainer-] .theme-light img[class*=roleIcon-] {
   content: "data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.0749 1.66667H4.99996C3.15901 1.66667 1.66663 3.15906 1.66663 5.00001V15C1.66663 16.841 3.15901 18.3333 4.99996 18.3333H15C16.8409 18.3333 18.3333 16.841 18.3333 15V8.92511C17.8052 9.08227 17.2458 9.16667 16.6666 9.16667C13.445 9.16667 10.8333 6.555 10.8333 3.33334C10.8333 2.75419 10.9177 2.19476 11.0749 1.66667ZM6.66663 5.00001C7.58596 5.00001 8.33329 5.74601 8.33329 6.66667C8.33329 7.58801 7.58596 8.33334 6.66663 8.33334C5.74529 8.33334 4.99996 7.58801 4.99996 6.66667C4.99996 5.74601 5.74529 5.00001 6.66663 5.00001ZM4.99996 15L7.49996 11.6667L9.16663 13.3333L12.5 9.16667L15 15H4.99996Z' fill='%2345475a'/%3E%3Cpath d='M17.5 0V2.5H20V4.16667H17.5V6.66667H15.8334V4.16667H13.3334V2.5H15.8334V0H17.5Z' fill='%2345475a'/%3E%3C/svg%3E";
@@ -762,34 +762,34 @@ div[class^=contentRegion-] #roles-tab div[class*=previewContainer-] .theme-dark 
 
 .bd-button {
   background-color: #f38ba8;
-  color: #11111b;
+  color: #020202;
 }
 .bd-button.bd-button-danger {
   background-color: #f38ba8;
 }
 
 .bd-controls > .bd-addon-button svg {
-  fill: #11111b;
+  fill: #020202;
 }
 
 .bd-addon-views .bd-view-button.selected {
   background-color: #f38ba8;
 }
 .bd-addon-views .bd-view-button.selected svg {
-  fill: #11111b;
+  fill: #020202;
 }
 
 div[class^=perksModal] {
   background-color: #000000;
 }
 div[class^=perksModal] li[class^=perk] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=perksModal] li[class^=perk] svg {
   color: #f5c2e7;
 }
 div[class^=perksModal] svg[class^=giftIcon] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=perksModal] div[class^=tierHeaderUnlocked] {
   background-image: linear-gradient(90deg, #89b4fa, #cba6f7);
@@ -802,7 +802,7 @@ div[class^=perksModal] div[class^=tierMarkerBackground-] {
 div[class^=perksModal] div[class^=barBackground],
 div[class^=perksModal] div[class^=tierMarkerInProgress],
 div[class^=perksModal] div[class^=tierBody] {
-  background-color: #11111b !important;
+  background-color: #020202 !important;
 }
 div[class^=perksModal] div[class^=tierMarkerAccomplished] {
   background: #f5c2e7 !important;
@@ -846,13 +846,13 @@ div[class^=pageWrapper-] {
   background: #000000 !important;
 }
 div[class^=pageWrapper-] div[class*=searchBox-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=pageWrapper-] div[class*=searchBox-] svg[class*=clearIcon] path {
   fill: #6c7086;
 }
 div[class^=pageWrapper-] div[class*=categoryPill-][class*=selected-] div {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class^=homeContainer-] {
@@ -868,31 +868,31 @@ section[class^=title-] {
 
 div[class^=categoryItem-][class*=selectedCategoryItem],
 button[class*=lookFilled] div[class*=addButton] {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class^=itemInner-] div[class^=new-] > div[class*=newText-] {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class*=directoryModal-] {
   background-color: #000000 !important;
 }
 div[class*=directoryModal-] [class*=searchBox] {
-  background-color: #181825 !important;
+  background-color: #010101 !important;
 }
 div[class*=directoryModal-] [class*=searchBox] [name=search]::placeholder {
   color: #a6adc8;
 }
 div[class*=directoryModal-] [role=button][class*=activeButton] {
-  color: #11111b;
+  color: #020202;
 }
 
 section[class^=guildListSection-] div[class^=guildList]:first-child div[class^=iconContainer-] {
   background-color: #a6e3a1;
 }
 section[class^=guildListSection-] div[class^=guildList]:first-child div[class^=iconContainer-] > div[class^=icon-] {
-  background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 25 24' width='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2311111b'%3E%3Cpath clip-rule='evenodd' d='m13.25 18v-12h-1.5v12z' fill-rule='evenodd'/%3E%3Cpath clip-rule='evenodd' d='m7 12.75c-.69036 0-1.25.5596-1.25 1.25v4h-1.5v-4c0-1.5188 1.23122-2.75 2.75-2.75h11c1.5188 0 2.75 1.2312 2.75 2.75v4h-1.5v-4c0-.6904-.5596-1.25-1.25-1.25z' fill-rule='evenodd'/%3E%3Cpath d='m12.5 7c-1.3807 0-2.5-1.11929-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.11929 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m20 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m12.5 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m5 22c-1.38071 0-2.5-1.1193-2.5-2.5s1.11929-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.11929 2.5-2.5 2.5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg fill='none' height='24' viewBox='0 0 25 24' width='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23020202'%3E%3Cpath clip-rule='evenodd' d='m13.25 18v-12h-1.5v12z' fill-rule='evenodd'/%3E%3Cpath clip-rule='evenodd' d='m7 12.75c-.69036 0-1.25.5596-1.25 1.25v4h-1.5v-4c0-1.5188 1.23122-2.75 2.75-2.75h11c1.5188 0 2.75 1.2312 2.75 2.75v4h-1.5v-4c0-.6904-.5596-1.25-1.25-1.25z' fill-rule='evenodd'/%3E%3Cpath d='m12.5 7c-1.3807 0-2.5-1.11929-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.11929 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m20 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m12.5 22c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z'/%3E%3Cpath d='m5 22c-1.38071 0-2.5-1.1193-2.5-2.5s1.11929-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.11929 2.5-2.5 2.5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 path[d="M22 12.4065C21.8956 14.9141 20.8533 17.2908 19.0798 19.0654C17.3062 20.8401 14.931 21.883 12.425 21.9875L13.7625 15.646L17.2375 17.9224C17.3214 17.9702 17.416 17.996 17.5125 17.9975C17.6481 17.9962 17.7781 17.9424 17.875 17.8474C17.9439 17.7577 17.9813 17.6478 17.9813 17.5347C17.9813 17.4216 17.9439 17.3117 17.875 17.222L15.6 13.7323L22 12.4065ZM13.7625 8.34148L17.2375 6.06504C17.3352 6.00866 17.4487 5.98608 17.5605 6.00084C17.6723 6.0156 17.7762 6.06686 17.8559 6.14665C17.9357 6.22645 17.9869 6.33037 18.0017 6.44225C18.0164 6.55413 17.9938 6.66772 17.9375 6.76548L15.6625 10.2551L22 11.581C21.8956 9.07342 20.8533 6.69669 19.0798 4.92206C17.3062 3.14742 14.931 2.10449 12.425 2L13.7625 8.34148ZM10.275 8.34148L11.6 2C9.09402 2.10449 6.71878 3.14742 4.94525 4.92206C3.17172 6.69669 2.12945 9.07342 2.02502 11.581L8.37497 10.2551L6.08752 6.76548C6.02873 6.66774 6.00413 6.55315 6.01772 6.43988C6.0313 6.32661 6.08228 6.22113 6.16252 6.14009C6.24233 6.05781 6.34797 6.00542 6.46175 5.99176C6.57552 5.97809 6.69052 6.00399 6.78752 6.06504L10.275 8.34148ZM6.16252 17.8474C6.08228 17.7663 6.0313 17.6609 6.01772 17.5476C6.00413 17.4343 6.02873 17.3197 6.08752 17.222L8.37497 13.7323L2 12.4065C2.10442 14.9141 3.1467 17.2908 4.92023 19.0654C6.69376 20.8401 9.06899 21.883 11.575 21.9875L10.25 15.646L6.7625 17.9224C6.67925 17.9718 6.58428 17.9977 6.48753 17.9975C6.35971 17.9937 6.23848 17.9398 6.15001 17.8474H6.16252Z"] {
@@ -900,7 +900,7 @@ path[d="M22 12.4065C21.8956 14.9141 20.8533 17.2908 19.0798 19.0654C17.3062 20.8
 }
 
 path[d="M17.225 6.06504C17.3227 6.00866 17.4362 5.98608 17.548 6.00084C17.6598 6.0156 17.7637 6.06686 17.8434 6.14665C17.9232 6.22645 17.9744 6.33037 17.9892 6.44225C18.0039 6.55413 17.9813 6.66772 17.925 6.76548L15.65 10.2551L21.9875 11.581C21.9875 11.7185 21.9875 11.8562 21.9875 11.9937C21.9875 12.1313 21.9875 12.2689 21.9875 12.4065L15.65 13.7323L17.925 17.222C17.9939 17.3117 18.0313 17.4216 18.0313 17.5347C18.0313 17.6478 17.9939 17.7577 17.925 17.8474C17.8281 17.9424 17.6982 17.9962 17.5625 17.9975C17.466 17.996 17.3714 17.9702 17.2875 17.9224L13.8125 15.646L12.4125 22H11.5875L10.2625 15.6585L6.77501 17.935C6.69176 17.9843 6.59672 18.0102 6.49997 18.01C6.43455 18.0098 6.3699 17.9963 6.30977 17.9705C6.24964 17.9447 6.1953 17.9072 6.15001 17.8599C6.06977 17.7789 6.01879 17.6734 6.0052 17.5601C5.99162 17.4468 6.01621 17.3323 6.07501 17.2345L8.36253 13.7449L2 12.4065C2 12.2689 2 12.1313 2 11.9937C2 11.8562 2 11.7185 2 11.581L8.35002 10.2551L6.0625 6.76548C6.0037 6.66774 5.97918 6.55315 5.99277 6.43988C6.00635 6.32661 6.05726 6.22113 6.1375 6.14009C6.21731 6.05781 6.32295 6.00542 6.43672 5.99176C6.5505 5.97809 6.6655 6.00399 6.7625 6.06504L10.25 8.34148L11.575 2H12.4L13.7375 8.34148L17.225 6.06504Z"] {
-  fill: #11111b;
+  fill: #020202;
 }
 
 div[class^=tierPreviews-] button[class^=button-] {
@@ -908,17 +908,17 @@ div[class^=tierPreviews-] button[class^=button-] {
 }
 
 div[class^=notice-] div[class*=noticeText-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=notice-] div[class*=header-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=notice-] div[class^=closeButton-] > svg > path {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=notice-] button[class^=button-] {
-  border-color: #11111b;
-  color: #11111b;
+  border-color: #020202;
+  color: #020202;
 }
 div[class^=notice-] button[class^=button-]:hover {
   background: #ee5d85;
@@ -928,7 +928,7 @@ nav[class*=guilds-] foreignObject > div[data-list-item-id^=guildsnav_] {
   background-color: #222234;
 }
 nav[class*=guilds-] foreignObject > div[data-list-item-id^=guildsnav_]:hover > div[class^=childWrapper-], nav[class*=guilds-] foreignObject > div[data-list-item-id^=guildsnav_][class*=selected] > div[class^=childWrapper-] {
-  color: #11111b;
+  color: #020202;
   font-weight: 600;
 }
 nav[class*=guilds-] div[data-list-item-id=guildsnav___home] {
@@ -947,14 +947,14 @@ nav[class*=guilds-] div[data-list-item-id=guildsnav___app-download-button] svg >
 }
 
 div[class^=upperBadge] > div[class^=iconBadge] path {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=upperBadge] div[class*=participating-] {
   background: #a6e3a1;
 }
 
 div[class^=lowerBadge] div[class^=iconBadge] path {
-  color: #11111b;
+  color: #020202;
 }
 
 svg[class^=spine-] {
@@ -1002,12 +1002,12 @@ ul[aria-label$=" threads"] > li:nth-child(6n) {
 }
 
 [class^=botText] {
-  color: #11111b;
+  color: #020202;
   font-weight: 600;
 }
 
 svg[class^=botTagVerified] {
-  color: #11111b;
+  color: #020202;
 }
 
 div[class*=activePostCount-] {
@@ -1017,12 +1017,12 @@ div[class*=activePostCount-] {
 
 div[class*=newPostCount-] {
   background-color: #cdd6f4;
-  color: #11111b;
+  color: #020202;
 }
 
 div[class*=liveSmall-] {
   background-color: #f38ba8 !important;
-  color: #11111b;
+  color: #020202;
 }
 
 [class^=chatContent] div[class*=wrapperAudio-] div[class*=audioControls],
@@ -1039,10 +1039,10 @@ div[class*=liveSmall-] {
   color: #bac2de;
 }
 [class^=chatContent] #---new-messages-bar span[class^=unreadPill-] {
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] div[class^=newMessagesBar-] button {
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] div[class^=channelTextArea-] div[class^=buttons-] * {
   color: var(--interactive-normal) !important;
@@ -1060,19 +1060,19 @@ div[class*=liveSmall-] {
 [class^=chatContent] div[class^=navButtonSuperReactActive-],
 [class^=chatContent] div[class^=navButtonSuperReactActive-]:hover {
   background: linear-gradient(270deg, #f5c2e7, #b4befe 33.63%, #cba6f7);
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] div[class*=betaTag-] {
   background: var(--brand-experiment) !important;
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] button[class*=navButtonActive-],
 [class^=chatContent] button[class*=navButtonActive-]:hover {
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] div[class*=colorPremiumGradient-][class*=focused-] {
   background: linear-gradient(270deg, #f5c2e7, #b4befe 33.63%, #cba6f7);
-  color: #11111b !important;
+  color: #020202 !important;
 }
 [class^=chatContent] div[class*=isBurstReactionPicker] {
   border: none;
@@ -1082,7 +1082,7 @@ div[class*=liveSmall-] {
   background: var(--brand-experiment) !important;
 }
 [class^=chatContent] svg[class*=playIcon-] path {
-  fill: #11111b;
+  fill: #020202;
 }
 [class^=chatContent] div[class^=container-][class*=header-] div[class*=addReactButton-],
 [class^=chatContent] div[class^=container-][class*=header-] div[class^=buttons-]:not([class*=lookBlank-]) div[class^=contents] {
@@ -1094,7 +1094,7 @@ div[class*=liveSmall-] {
   border-color: var(--brand-experiment-30a);
 }
 [class^=chatContent] div[class^=messagesErrorBar-] div[class*=barButtonBase-] {
-  color: #11111b;
+  color: #020202;
 }
 [class^=chatContent] [class*=inlineCode-] {
   background: #313244;
@@ -1104,7 +1104,7 @@ div[class*=liveSmall-] {
 }
 [class^=chatContent] div[class^=container-] div[class^=cardWrapper-] div[class*=completed-] svg[class^=checkmark-] {
   background-color: #a6e3a1;
-  color: #11111b;
+  color: #020202;
 }
 
 div[style*="d1382af8d9e755bc44811b1fd92990a8.svg"] {
@@ -1143,7 +1143,7 @@ main[class^=chatContent] div[id^=message-content-] svg[class^=icon-] > path[d="M
 .theme-dark div[class|=spoilerContainer]:hover div[class|=spoilerWarning],
 .theme-light div[class|=spoilerContainer]:hover div[class|=spoilerWarning] {
   color: #cdd6f4;
-  background-color: #11111b;
+  background-color: #020202;
 }
 .theme-dark div[class|=spoilerContainer] article[class*=embedFull-],
 .theme-light div[class|=spoilerContainer] article[class*=embedFull-] {
@@ -1155,10 +1155,10 @@ div[class^=cooldownWrapper-] {
 }
 
 div[class*=autocomplete-] {
-  background-color: #181825 !important;
+  background-color: #010101 !important;
 }
 div[class*=autocomplete-] div[class*=categoryHeader] {
-  background-color: #181825 !important;
+  background-color: #010101 !important;
 }
 div[class*=autocomplete-] div[class*=autocompleteRowSubheading] {
   background-color: transparent;
@@ -1181,10 +1181,10 @@ div[class^=channelTextArea-] button[class*=emojiButton-] {
   background-color: #f38ba8;
 }
 [class|=uploadDropModal] div[class^=inner] {
-  border-color: #11111b;
+  border-color: #020202;
 }
 [class|=uploadDropModal] div[class^=inner] * {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class^=chat] > div[class^=content-] > div[class^=container-] {
@@ -1196,18 +1196,18 @@ div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=step
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=pinIcon-][style*="background-color: var(--status-positive-background);"] > svg > path,
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=stepStatus-][style*="background-color: var(--status-positive-background);"] > svg > path {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class*=countText] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] svg[class^=discordIcon-] {
   background-color: #f38ba8;
-  color: #11111b;
+  color: #020202;
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=newBadge-] {
   background-color: #b4befe !important;
-  color: #11111b;
+  color: #020202;
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class*=mainCard-] {
   background-color: #313244;
@@ -1220,11 +1220,11 @@ div[class^=sidebar-] > section[class^=panels-] div[class*=buttonContents] {
 }
 
 [data-list-id^=forum-channel-list-] div[class^=body-] > div[class^=tags] div[class*=pill] {
-  background-color: #181825;
+  background-color: #010101;
 }
 [data-list-id^=forum-channel-list-] button[class^=submitButton-][class*=colorBrand] {
   background-color: #f38ba8;
-  color: #11111b;
+  color: #020202;
 }
 
 div[class|=applicationCommand] span[class*=selectedPill-] {
@@ -1243,7 +1243,7 @@ div[class^=chat] > div[class^=content-] main[class^=chatContent-] + div[class^=c
 }
 
 [class*=barButtonBase-] {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class^=callContainer-] [class*=controlIcon-] {
@@ -1288,7 +1288,7 @@ div[class^=callContainer-] div[class^=videoControls-] div[class^=toolbar-] div[c
 }
 div[class^=callContainer-] div[class^=videoControls-] div[class^=toolbar-] div[class^=liveIndicator-] div[class^=live-] {
   background-color: #f38ba8 !important;
-  color: #11111b !important;
+  color: #020202 !important;
 }
 div[class^=callContainer-] div[class^=videoControls-] button[class*=leftTrayIcon-][class*=buttonColor-] {
   background-color: #313244;
@@ -1298,7 +1298,7 @@ div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*
   background: #f38ba8;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=red-] [class*=centerIcon-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=primaryDark-] {
   background: #45475a;
@@ -1308,31 +1308,31 @@ div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*
   color: #cdd6f4;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=white-] {
-  color: #11111b;
+  color: #020202;
   background-color: #bac2de;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=white-] [class*=centerIcon-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=white-]:hover, div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=white-][class*=active-] {
   background: #cdd6f4;
 }
 
 div[class*=giftCodeContainer] [class*=tile] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class*=giftCodeContainer] [class*=tile] > [class*=description] {
   color: #cdd6f4;
 }
 
 div[class*=chat-] section[class*=header-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class*=chat-] div[class*=content-][class*=container-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[class*=container] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[class*=search-] {
   background-color: #000000 !important;
@@ -1344,17 +1344,17 @@ div[class*=chat-] div[class*=content-][class*=container-] div[class*=browser] di
   background-color: #000000;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[class*=scrollerContainer-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[class*=scrollerContainer-] div[class*=checkIcon-][style*="opacity: 1;"] > svg > path {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[role=tablist] {
-  background-color: #181825;
+  background-color: #010101;
   border-bottom: 2px solid #313244;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[role=tablist] [class*=textBadge-] {
-  color: #11111b;
+  color: #020202;
 }
 
 div[class*=chat-] section[class*=title] div[class*=searchBar] span[class*=search] {
@@ -1362,7 +1362,7 @@ div[class*=chat-] section[class*=title] div[class*=searchBar] span[class*=search
   color: #cdd6f4;
 }
 div[class*=chat-] nav[class*=pageControl] div[class*=roundButton][class*=activeButton] span {
-  color: #11111b;
+  color: #020202;
 }
 
 div[class*=chat-] li[class*=mainCard-][class*=container] {
@@ -1423,11 +1423,11 @@ div[class^=layerContainer] [role=menu] [class*=colorDefault][class*=focused] [cl
 }
 div[class^=layerContainer] [role=menu] [class*=colorDefault][role=menuitem]:not([class*=colorDanger]):not([id*=user-context-user-volume]):hover {
   background: var(--background-accent);
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] [role=menu] [class*=colorDefault][role=menuitem]:not([class*=colorDanger]):not([id*=user-context-user-volume]):hover [class*=subtext],
 div[class^=layerContainer] [role=menu] [class*=colorDefault][role=menuitem]:not([class*=colorDanger]):not([id*=user-context-user-volume]):hover [class*=caret-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] [role=menu] [class*=colorDefault] [class*=caret] {
   color: #cdd6f4;
@@ -1442,7 +1442,7 @@ div[class^=layerContainer] [role=menu] [class*=colorDefault]:active:not([class*=
   color: var(--background-floating);
 }
 div[class^=layerContainer] [role=menu] [class*=focused] [class*=userMenuUsername] * {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] [role=menu] [class*=colorDanger][class*=focused],
 div[class^=layerContainer] [role=menu] [class*=colorDefault] [class*=check-] {
@@ -1462,11 +1462,11 @@ div[class^=layerContainer] [role=menu] #user-context-user-volume div[class*=slid
 }
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=countText],
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=countText] {
-  color: #11111b;
+  color: #020202;
 }
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] svg[class*=activeIcon] circle,
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] svg[class*=activeIcon] circle {
-  fill: #11111b;
+  fill: #020202;
 }
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] svg[class*=activeIcon] g path,
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] svg[class*=activeIcon] g path {
@@ -1476,7 +1476,7 @@ div[class^=layerContainer] [role=menu] #user-context-user-volume div[class*=slid
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] header,
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] div[class*=autocompleteArrow-],
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] header {
-  background-color: #181825;
+  background-color: #010101;
 }
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] header > input::placeholder,
 .theme-light div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-] div[class*=container] header > input::placeholder {
@@ -1531,7 +1531,7 @@ div[class*=layerContainer] > div[class*=layer] div[class*=friendSelected] {
 
 section[class^=positionContainer-] button[class*=navButtonActive] {
   background-color: #f38ba8;
-  color: #11111b;
+  color: #020202;
 }
 
 .theme-light section[class^=positionContainer-] div[class^=categoryText-] {
@@ -1547,7 +1547,7 @@ section[class^=positionContainer-] button[class*=navButtonActive] {
 }
 #emoji-picker-tab-panel [class*=newlyAddedHighlight-] ~ [class*=newlyAddedBadge-] {
   background: #a6e3a1 !important;
-  color: #11111b;
+  color: #020202;
 }
 
 [class*=stickerInspected-] [class^=inspectedIndicator] {
@@ -1592,10 +1592,10 @@ section[class^=positionContainer-] button[class*=navButtonActive] {
 .theme-light[class*=profileColors-] [class*=section-],
 .theme-light[class*=profileColors-] [class*=additionalActionsIcon-],
 .theme-light[class*=profileColors-] [class*=overlayBackground-] * {
-  --interactive-normal: #11111b;
-  --text-normal: #11111b;
-  --interactive-active: #11111b;
-  --interactive-hover: #11111b;
+  --interactive-normal: #020202;
+  --text-normal: #020202;
+  --interactive-active: #020202;
+  --interactive-hover: #020202;
 }
 .theme-light[class*=profileColors-] [class*=userTagUsernameBase-]:not(a),
 .theme-light[class*=profileColors-] [class*=discrimBase-]:not(a),
@@ -1615,16 +1615,16 @@ div[class^=layerContainer] #guild-header-popout,
 div[class^=layerContainer] #guild-context,
 div[class^=layerContainer] div[id^=channel-context],
 div[class^=layerContainer] div[id^=user-context] {
-  background: #11111b;
+  background: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] div[role=option][aria-selected=true] {
   background: #313244;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] div[role=option] svg[class*=selectedIcon] circle {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] div[class*=queryText-] {
   color: #7f849c;
@@ -1636,7 +1636,7 @@ div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modalSize-],
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=uploadModal-],
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=contentWrapper] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-] li,
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class^=modal-] p,
@@ -1653,10 +1653,10 @@ div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class|=
   color: #cdd6f4;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] button[type=submit] span {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=footer] [class*=footerText-] {
   color: #bac2de;
@@ -1681,19 +1681,19 @@ div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=
   background-color: #313244;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=Activities] div[class*=activityItem-] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=Activities] div[class*=activityItem-] div[class*=previewBadge-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=Activities] div[class*=activityTag-] {
   background-color: #313244;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label="Manage Accounts"] div[class*=navRow-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=layerContainer] div[class^=addGamePopout-] {
-  background-color: #181825;
+  background-color: #010101;
 }
 div[class^=layerContainer] div[class*=searchOption-]::after,
 div[class^=layerContainer] div[class*=option-]::after,
@@ -1701,7 +1701,7 @@ div[class^=layerContainer] li[class*=option-]::after {
   display: none;
 }
 div[class^=layerContainer] div[class^=queryContainer] {
-  background-color: #11111b;
+  background-color: #020202;
 }
 div[class^=layerContainer] div[class^=queryContainer] span[class^=key] {
   color: #cdd6f4;
@@ -1711,13 +1711,13 @@ div[class^=layerContainer] [class*=tooltipBrand-],
 div[class^=layerContainer] [class*=tooltipRed-],
 div[class^=layerContainer] [class*=tooltipGreen-],
 div[class^=layerContainer] [class*=tooltipYellow] {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] div[class^=popout-] div[class^=row][role=button]:hover {
-  color: #11111b;
+  color: #020202;
 }
 div[class^=layerContainer] div[class^=popout-] div[class^=row][role=button]:hover [class*=timestamp] {
-  color: #11111b;
+  color: #020202;
 }
 
 form[class*=card-] {
@@ -1729,7 +1729,7 @@ div[class*=userInfoSection-] div[class^=connectedAccountContainer-] {
 }
 
 div[class*=cardWarning-] div[class*=warning-] {
-  color: #11111b;
+  color: #020202;
 }
 
 #emoji-picker-tab-panel,
@@ -1748,22 +1748,22 @@ div[class*=cardWarning-] div[class*=warning-] {
 }
 
 div[class*=keyboardShortcutsModal-] {
-  background-color: #181825 !important;
+  background-color: #010101 !important;
 }
 div[class*=keyboardShortcutsModal-] div[class^=keybindShortcut-] span[class^=key-] {
-  color: #11111b;
+  color: #020202;
 }
 div[class*=keyboardShortcutsModal-] div[class^=keybindShortcut-] span[class^=key-] svg g {
-  fill: #11111b !important;
+  fill: #020202 !important;
 }
 
 .react-datepicker,
 .react-datepicker__header {
-  background-color: #181825 !important;
+  background-color: #010101 !important;
 }
 
 .react-datepicker__day {
-  background-color: #11111b !important;
+  background-color: #020202 !important;
 }
 
 .react-datepicker__day:active {
@@ -1775,7 +1775,7 @@ div[class*=keyboardShortcutsModal-] div[class^=keybindShortcut-] span[class^=key
 }
 
 [class^=datePickerHint-] [class^=hintValue-] {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 div[class*=layerContainer-] div[class^=control-] div[class*=checked-] {
@@ -1833,11 +1833,11 @@ div[class*=userProfileOuter-] div[class^=userPopoutOverlayBackground] > div[clas
 }
 
 [class*=layerContainer-] div[id=sort-and-view] div[id=sort-and-view-reset-all] [style="color: var(--text-normal);"]:hover {
-  color: #11111b !important;
+  color: #020202 !important;
 }
 
 [class|=layerContainer] [class|=quickswitcher] [class*=badge-] {
-  color: #11111b;
+  color: #020202;
 }
 
 rect[fill="#23a55a"],
@@ -1929,7 +1929,7 @@ svg[class^=cursorDefault-] svg[class^=dots-] circle {
 
 [style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
   background-color: #f38ba8 !important;
-  color: #11111b;
+  color: #020202;
 }
 
 span[class*=username-][style*="color: rgb(54, 57, 62)"],
@@ -1941,7 +1941,7 @@ div[class*=flowerStarContainer-][class*=boostedGuildTierIconBackgroundWithVisibl
   fill: #fff;
 }
 div[class*=flowerStarContainer-][class*=boostedGuildTierIconBackgroundWithVisibleBanner] div[class^=childContainer-] svg * {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class*=flowerStarContainer-][class*=iconBackgroundTierOne-] svg[class*=flowerStar-] *, div[class*=flowerStarContainer-][class*=iconBackgroundTierTwo-]:not([class*=boostedGuildTierIconBackgroundWithVisibleBanner]) svg[class*=flowerStar-] * {
   fill: #585b70;
@@ -1953,19 +1953,19 @@ div[class*=flowerStarContainer-][class*=iconBackgroundTierThree-] svg[class*=flo
   fill: #f5c2e7;
 }
 div[class*=flowerStarContainer-][class*=iconBackgroundTierThree-] div[class^=childContainer-] svg * {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class*=flowerStarContainer-][class*=verified-] svg[class*=flowerStar-] * {
   fill: #a6e3a1;
 }
 div[class*=flowerStarContainer-][class*=verified-] div[class^=childContainer-] svg * {
-  fill: #11111b;
+  fill: #020202;
 }
 div[class*=flowerStarContainer-][class*=partnered-] svg[class*=flowerStar-] * {
   fill: #f38ba8;
 }
 div[class*=flowerStarContainer-][class*=partnered-] div[class^=childContainer-] svg * {
-  fill: #11111b;
+  fill: #020202;
 }
 
 div[class^=communityInfoPill] {
@@ -1981,7 +1981,7 @@ a[class*=socialLink-][href*=discord] {
 }
 
 svg[class^=uploadIcon] {
-  color: #11111b;
+  color: #020202;
 }
 
 .theme-dark h2[class^=emptyStateHeader-],
@@ -1995,16 +1995,16 @@ svg[class^=uploadIcon] {
 
 div[class*=unreadMentionsBar-],
 div[class*=unreadBar-] {
-  color: #11111b;
+  color: #020202;
 }
 
 div[class|=numberBadge] {
   font-weight: 700;
-  color: #11111b;
+  color: #020202;
 }
 
 div[class|=newChannel] {
-  color: #11111b;
+  color: #020202;
   background-color: #f38ba8 !important;
 }
 
@@ -2040,7 +2040,7 @@ div[class*=featureIcon-] path {
 }
 
 div[class*=backgroundAccent-] {
-  color: #11111b;
+  color: #020202;
 }
 
 div[class*=profileBadges-] div[aria-label="Supports Commands"] img {
@@ -2049,16 +2049,16 @@ div[class*=profileBadges-] div[aria-label="Supports Commands"] img {
 
 div[class*=newBadge-],
 div[class*=tryItOutBadge-] {
-  color: #11111b;
+  color: #020202;
 }
 
 [class|=tabBar] [class|=badge] {
-  color: #11111b;
+  color: #020202;
 }
 
 span[class*=channelMention]:hover,
 [class*=mention]:not([class*=mentionButton-], [class*=mentionIcon-]):hover {
-  color: #11111b;
+  color: #020202;
 }
 
 .theme-dark code.hljs {
