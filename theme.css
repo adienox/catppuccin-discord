@@ -209,7 +209,7 @@ html {
   --channeltextarea-background: #010101;
   --activity-card-background: #020202;
   --textbox-markdown-syntax: #6c7086;
-  --spoiler-revealed-background: #313244;
+  --spoiler-revealed-background: #1e1e2e;
   --spoiler-hidden-background: #585b70;
   --android-navigation-bar-background: #020202;
   --android-ripple: rgba(17, 17, 27, 0.3);
@@ -231,7 +231,7 @@ html {
 }
 .theme-dark [class*=disabledPointerEvents],
 .theme-light [class*=disabledPointerEvents] {
-  --background-floating: #313244;
+  --background-floating: #1e1e2e;
   --background-tertiary: #242437;
 }
 .theme-dark [class*=disabledPointerEvents] svg[class^=activityIcon-],
@@ -434,7 +434,7 @@ div[class^=actionButtons-] [class^=button-] [class*=buttonColor-][class*=buttonA
 .theme-dark [class*=lookFilled-][class*=colorTransparent-],
 .theme-light [class*=lookFilled-][class*=colorTransparent-] {
   color: #cdd6f4;
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 
 div[class*=button-][class*=dangerous-]:hover {
@@ -608,7 +608,7 @@ div[class^=contentRegion-] #billing-tab div[class^=premiumIndicator-] {
 div[class^=contentRegion-] #billing-tab div[class^=paymentPane-],
 div[class^=contentRegion-] #billing-tab div[class*=paginator-],
 div[class^=contentRegion-] #billing-tab div[class*=payment-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4;
 }
 div[class^=contentRegion-] #billing-tab div[class^=expandedInfo-] {
@@ -620,7 +620,7 @@ div[class^=contentRegion-] #billing-tab [class*=paymentText-] {
 div[class^=contentRegion-] #billing-tab div[class^=codeRedemptionRedirect-] {
   background-color: #010101;
   color: #cdd6f4;
-  border-color: #313244;
+  border-color: #1e1e2e;
 }
 div[class^=contentRegion-] [id="voice-&-video-tab"] div[class^=backgroundOptionRing-] {
   border-color: #f38ba8;
@@ -652,16 +652,16 @@ div[class^=contentRegion-] #game-activity-tab div[class*=game-] {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
 div[class^=contentRegion-] #game-activity-tab div[class*=removeGame-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 div[class^=contentRegion-] #emoji-tab div[class*=emojiRemove-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 div[class^=contentRegion-] section[class^=inputSensitivityToggle-] div[class*=speaking-] {
   background: #a6e3a1 !important;
 }
 div[class^=contentRegion-] div[class*=reactionMe-] {
-  background-color: #313244 !important;
+  background-color: #1e1e2e !important;
 }
 div[class^=contentRegion-] div[class^=control-] > div[class*=checked-],
 div[class^=contentRegion-] div[class^=sensitivity-] div[class*=checked-],
@@ -860,7 +860,7 @@ div[class^=homeContainer-] {
   background: #000000 !important;
 }
 div[class^=homeContainer-] > div[class^=homeContent-] div[class*=card-] {
-  background: #313244 !important;
+  background: #1e1e2e !important;
 }
 
 section[class^=title-] {
@@ -1012,7 +1012,7 @@ svg[class^=botTagVerified] {
 }
 
 div[class*=activePostCount-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4 !important;
 }
 
@@ -1049,7 +1049,7 @@ div[class*=liveSmall-] {
   color: var(--interactive-normal) !important;
 }
 [class^=chatContent] [id^=message-reactions-] div[class^=reaction-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 [class^=chatContent] [id^=message-reactions-] div[class^=reaction-]:hover {
   background-color: var(--brand-experiment-20a);
@@ -1087,7 +1087,7 @@ div[class*=liveSmall-] {
 }
 [class^=chatContent] div[class^=container-][class*=header-] div[class*=addReactButton-],
 [class^=chatContent] div[class^=container-][class*=header-] div[class^=buttons-]:not([class*=lookBlank-]) div[class^=contents] {
-  background: #313244;
+  background: #1e1e2e;
 }
 [class^=chatContent] div[class^=container-][class*=header-] div[class*=addReactButton-]:hover,
 [class^=chatContent] div[class^=container-][class*=header-] div[class^=buttons-]:not([class*=lookBlank-]) div[class^=contents]:hover {
@@ -1098,10 +1098,10 @@ div[class*=liveSmall-] {
   color: #020202;
 }
 [class^=chatContent] [class*=inlineCode-] {
-  background: #313244;
+  background: #1e1e2e;
 }
 [class^=chatContent] code.inline {
-  background: #313244;
+  background: #1e1e2e;
 }
 [class^=chatContent] div[class^=container-] div[class^=cardWrapper-] div[class*=completed-] svg[class^=checkmark-] {
   background-color: #a6e3a1;
@@ -1122,7 +1122,7 @@ main[class^=chatContent] div[id^=message-content-] svg[class^=icon-] > path[d="M
 .theme-dark div[class|=spoilerContent],
 .theme-light span[class|=spoilerContent],
 .theme-light div[class|=spoilerContent] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 .theme-dark span[class|=spoilerContent][class*=hidden],
 .theme-dark div[class|=spoilerContent][class*=hidden],
@@ -1211,7 +1211,7 @@ div[class^=chat] > div[class^=content-] > div[class^=container-] div[class^=newB
   color: #020202;
 }
 div[class^=chat] > div[class^=content-] > div[class^=container-] div[class*=mainCard-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 
 div[class^=sidebar-] > section[class^=panels-] svg[class*=buttonIcon-],
@@ -1259,7 +1259,7 @@ div[class^=callContainer-] div[class*=background-] {
 }
 div[class^=callContainer-] div[class*=overlayTitle],
 div[class^=callContainer-] svg[class*=status-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4;
 }
 div[class^=callContainer-] div[class*=header],
@@ -1269,7 +1269,7 @@ div[class^=callContainer-] svg[class*=selectedIcon-] {
 div[class^=callContainer-] div[class*=button-][class*=contents-],
 div[class^=callContainer-] button[class*=cta-],
 div[class^=callContainer-] button[class*=participantsButton-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4;
 }
 div[class^=callContainer-] div[class^=videoControls-] div[class^=children-] div[class*=playingText-] {
@@ -1292,7 +1292,7 @@ div[class^=callContainer-] div[class^=videoControls-] div[class^=toolbar-] div[c
   color: #020202 !important;
 }
 div[class^=callContainer-] div[class^=videoControls-] button[class*=leftTrayIcon-][class*=buttonColor-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4;
 }
 div[class^=callContainer-] div[class^=videoControls-] [class*=colorable-][class*=red-] {
@@ -1352,14 +1352,14 @@ div[class*=chat-] div[class*=content-][class*=container-] div[class*=scrollerCon
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[role=tablist] {
   background-color: #010101;
-  border-bottom: 2px solid #313244;
+  border-bottom: 2px solid #1e1e2e;
 }
 div[class*=chat-] div[class*=content-][class*=container-] div[role=tablist] [class*=textBadge-] {
   color: #020202;
 }
 
 div[class*=chat-] section[class*=title] div[class*=searchBar] span[class*=search] {
-  background-color: #313244;
+  background-color: #1e1e2e;
   color: #cdd6f4;
 }
 div[class*=chat-] nav[class*=pageControl] div[class*=roundButton][class*=activeButton] span {
@@ -1367,7 +1367,7 @@ div[class*=chat-] nav[class*=pageControl] div[class*=roundButton][class*=activeB
 }
 
 div[class*=chat-] li[class*=mainCard-][class*=container] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 div[class*=chat-] li[class*=mainCard-][class*=container]:hover {
   background-color: #45475a;
@@ -1454,7 +1454,7 @@ div[class^=layerContainer] [role=menu] #guild-header-popout-premium-subscribe di
   color: #f5c2e7;
 }
 div[class^=layerContainer] [role=menu] #user-context-user-volume div[class*=slider-] div[class*=bar-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 
 .theme-dark div[class^=layerContainer] div[id^=popout_] > div[class*=didRender-]:not([class^=animatorBottom-]) > div div[class*=flowerStarContainer-] svg[class*=flowerStar-] *,
@@ -1494,7 +1494,7 @@ div[class*=recentMentionsPopout] div[class|=header] div[class|=tabBar] div[class
   color: #000000;
 }
 div[class*=recentMentionsPopout] div[class|=header] div[class|=controls-] {
-  --background-secondary: #313244;
+  --background-secondary: #1e1e2e;
   --background-primary: rgba(49, 50, 68, 0.9);
 }
 div[class*=recentMentionsPopout] div[class^=scroller-] [role=button] {
@@ -1502,7 +1502,7 @@ div[class*=recentMentionsPopout] div[class^=scroller-] [role=button] {
   --background-floating: rgba(166, 173, 200, 0.12);
 }
 div[class*=recentMentionsPopout] div[class^=scroller-] [role=button] div[class*=jumpButton-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 
 div[class*=rolesList] div[class^=role-],
@@ -1527,7 +1527,7 @@ div[class*=layerContainer] > div[class*=layer] div[class*=reactionSelected] {
   background-color: var(--background-modifier-selected);
 }
 div[class*=layerContainer] > div[class*=layer] div[class*=friendSelected] {
-  background: #313244 !important;
+  background: #1e1e2e !important;
 }
 
 section[class^=positionContainer-] button[class*=navButtonActive] {
@@ -1556,12 +1556,12 @@ section[class^=positionContainer-] button[class*=navButtonActive] {
 }
 
 .theme-light > div[class^=focusLock] > div[class^=root] > div[class^=container] div[class*=footer][class*=footerSeparator-] {
-  box-shadow: inset 0 1px 0 #313244;
-  -webkit-box-shadow: inset 0 1px 0 #313244;
+  box-shadow: inset 0 1px 0 #1e1e2e;
+  -webkit-box-shadow: inset 0 1px 0 #1e1e2e;
 }
 .theme-light > div[class^=focusLock] > div[class^=root] {
-  box-shadow: 0 0 0 1px #313244, 0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
-  -webkit-box-shadow: 0 0 0 1px #313244, 0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
+  box-shadow: 0 0 0 1px #1e1e2e, 0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
+  -webkit-box-shadow: 0 0 0 1px #1e1e2e, 0 2px 10px 0 hsla(0, calc(var(--saturation-factor, 1) * 0%), 0%, 0.1);
 }
 .theme-light div[class|=focusLock] div[class|=downloadApps] {
   background-color: #000000 !important;
@@ -1622,7 +1622,7 @@ div[class^=layerContainer] > div[class*=layer] div[role=listbox] {
   background-color: #010101;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] div[role=option][aria-selected=true] {
-  background: #313244;
+  background: #1e1e2e;
 }
 div[class^=layerContainer] > div[class*=layer] div[role=listbox] div[role=option] svg[class*=selectedIcon] circle {
   fill: #020202;
@@ -1679,7 +1679,7 @@ div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] h6[class^=f
   background-color: #f38ba8;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock] div[class*=message-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=Activities] div[class*=activityItem-] {
   background-color: #020202;
@@ -1688,7 +1688,7 @@ div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=
   color: #020202;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label=Activities] div[class*=activityTag-] {
-  background-color: #313244;
+  background-color: #1e1e2e;
 }
 div[class^=layerContainer] > div[class*=layer] div[class^=focusLock][aria-label="Manage Accounts"] div[class*=navRow-] {
   background-color: #010101;
@@ -1735,7 +1735,7 @@ div[class*=cardWarning-] div[class*=warning-] {
 
 #emoji-picker-tab-panel,
 #sticker-picker-tab-panel {
-  /* --background-floating: #313244;
+  /* --background-floating: #1e1e2e;
 
     + div[class^="slotsContainer-"] {
       background-color: $surface0;
